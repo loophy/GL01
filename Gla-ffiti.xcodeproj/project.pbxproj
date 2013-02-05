@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE28679A16970EDA00220FB3 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE28679916970EDA00220FB3 /* Social.framework */; };
+		CE84609C167DD345009C681C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE84609B167DD345009C681C /* UIKit.framework */; };
+		CE84609E167DD345009C681C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE84609D167DD345009C681C /* Foundation.framework */; };
+		CE8460A0167DD345009C681C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE84609F167DD345009C681C /* CoreGraphics.framework */; };
+		CE8460A6167DD345009C681C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE8460A4167DD345009C681C /* InfoPlist.strings */; };
+		CE8460A8167DD345009C681C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8460A7167DD345009C681C /* main.m */; };
+		CE8460AC167DD345009C681C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8460AB167DD345009C681C /* AppDelegate.m */; };
+		CE8460B5167DD345009C681C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8460B3167DD345009C681C /* MainStoryboard.storyboard */; };
+		CE8460B8167DD345009C681C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8460B7167DD345009C681C /* ViewController.m */; };
+		CE8460C3167DFBF3009C681C /* MenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8460C2167DFBF3009C681C /* MenuView.xib */; };
+		CE8460C6167E0CE0009C681C /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8460C5167E0CE0009C681C /* MenuView.m */; };
+		CE8460C9167EDC6F009C681C /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8460C8167EDC6F009C681C /* DrawViewController.m */; };
+		CE8460CC167EDCBC009C681C /* GlassView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8460CB167EDCBC009C681C /* GlassView.m */; };
+		CECD05A016994CFD006E009C /* SnsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CECD059F16994CFD006E009C /* SnsView.m */; };
+		CECD05A316994D44006E009C /* SnsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECD05A216994D44006E009C /* SnsView.xib */; };
+		CECD0622169EFD36006E009C /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = CECD0620169EFD36006E009C /* menu.png */; };
+		CECD0623169EFD36006E009C /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CECD0621169EFD36006E009C /* menu@2x.png */; };
+		CECD0626169F0D14006E009C /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = CECD0624169F0D14006E009C /* share.png */; };
+		CECD0627169F0D14006E009C /* share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CECD0625169F0D14006E009C /* share@2x.png */; };
+		CECD067816A5A425006E009C /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECD067716A5A425006E009C /* iAd.framework */; };
+		CECD068516A68AA1006E009C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CECD068416A68AA1006E009C /* icon.png */; };
+		CECD068716A68ACA006E009C /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CECD068616A68ACA006E009C /* icon@2x.png */; };
+		CECD068C16A69D4D006E009C /* back-button.png in Resources */ = {isa = PBXBuildFile; fileRef = CECD068A16A69D4C006E009C /* back-button.png */; };
+		CECD068D16A69D4D006E009C /* back-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CECD068B16A69D4C006E009C /* back-button@2x.png */; };
+		CEEB549416AA3F7F008C1DB7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEB549316AA3F7F008C1DB7 /* Default.png */; };
+		CEEB549616AA3FA6008C1DB7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEB549516AA3FA6008C1DB7 /* Default@2x.png */; };
+		CEEB549816AA3FB4008C1DB7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEB549716AA3FB4008C1DB7 /* Default-568h@2x.png */; };
+		CEEB549F16AA4689008C1DB7 /* title-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEB549D16AA4689008C1DB7 /* title-logo.png */; };
+		CEEB54A016AA4689008C1DB7 /* title-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEB549E16AA4689008C1DB7 /* title-logo@2x.png */; };
+		CEEB54A716ABF2AC008C1DB7 /* button-start.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEB54A516ABF2AB008C1DB7 /* button-start.png */; };
+		CEEB54A816ABF2AC008C1DB7 /* button-start@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEB54A616ABF2AB008C1DB7 /* button-start@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE28679916970EDA00220FB3 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		CE846097167DD345009C681C /* Gla-ffiti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gla-ffiti.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE84609B167DD345009C681C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE84609D167DD345009C681C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE84609F167DD345009C681C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE8460A3167DD345009C681C /* Gla-ffiti-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gla-ffiti-Info.plist"; sourceTree = "<group>"; };
+		CE8460A5167DD345009C681C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE8460A7167DD345009C681C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE8460A9167DD345009C681C /* Gla-ffiti-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gla-ffiti-Prefix.pch"; sourceTree = "<group>"; };
+		CE8460AA167DD345009C681C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE8460AB167DD345009C681C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE8460B4167DD345009C681C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CE8460B6167DD345009C681C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE8460B7167DD345009C681C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE8460C2167DFBF3009C681C /* MenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuView.xib; sourceTree = "<group>"; };
+		CE8460C4167E0CE0009C681C /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
+		CE8460C5167E0CE0009C681C /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
+		CE8460C7167EDC6F009C681C /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		CE8460C8167EDC6F009C681C /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
+		CE8460CA167EDCBC009C681C /* GlassView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlassView.h; sourceTree = "<group>"; };
+		CE8460CB167EDCBC009C681C /* GlassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlassView.m; sourceTree = "<group>"; };
+		CECD059E16994CFD006E009C /* SnsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnsView.h; sourceTree = "<group>"; };
+		CECD059F16994CFD006E009C /* SnsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnsView.m; sourceTree = "<group>"; };
+		CECD05A216994D44006E009C /* SnsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SnsView.xib; sourceTree = "<group>"; };
+		CECD0620169EFD36006E009C /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		CECD0621169EFD36006E009C /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		CECD0624169F0D14006E009C /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		CECD0625169F0D14006E009C /* share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share@2x.png"; sourceTree = "<group>"; };
+		CECD067716A5A425006E009C /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		CECD068416A68AA1006E009C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		CECD068616A68ACA006E009C /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
+		CECD068A16A69D4C006E009C /* back-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-button.png"; sourceTree = "<group>"; };
+		CECD068B16A69D4C006E009C /* back-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-button@2x.png"; sourceTree = "<group>"; };
+		CEEB549316AA3F7F008C1DB7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		CEEB549516AA3FA6008C1DB7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		CEEB549716AA3FB4008C1DB7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		CEEB549D16AA4689008C1DB7 /* title-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "title-logo.png"; sourceTree = "<group>"; };
+		CEEB549E16AA4689008C1DB7 /* title-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "title-logo@2x.png"; sourceTree = "<group>"; };
+		CEEB54A516ABF2AB008C1DB7 /* button-start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-start.png"; sourceTree = "<group>"; };
+		CEEB54A616ABF2AB008C1DB7 /* button-start@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-start@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE846094167DD345009C681C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECD067816A5A425006E009C /* iAd.framework in Frameworks */,
+				CE28679A16970EDA00220FB3 /* Social.framework in Frameworks */,
+				CE84609C167DD345009C681C /* UIKit.framework in Frameworks */,
+				CE84609E167DD345009C681C /* Foundation.framework in Frameworks */,
+				CE8460A0167DD345009C681C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE84608C167DD345009C681C = {
+			isa = PBXGroup;
+			children = (
+				CE8460A1167DD345009C681C /* Gla-ffiti */,
+				CE84609A167DD345009C681C /* Frameworks */,
+				CE846098167DD345009C681C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE846098167DD345009C681C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE846097167DD345009C681C /* Gla-ffiti.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE84609A167DD345009C681C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CECD067716A5A425006E009C /* iAd.framework */,
+				CE28679916970EDA00220FB3 /* Social.framework */,
+				CE84609B167DD345009C681C /* UIKit.framework */,
+				CE84609D167DD345009C681C /* Foundation.framework */,
+				CE84609F167DD345009C681C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE8460A1167DD345009C681C /* Gla-ffiti */ = {
+			isa = PBXGroup;
+			children = (
+				CE8460AA167DD345009C681C /* AppDelegate.h */,
+				CE8460AB167DD345009C681C /* AppDelegate.m */,
+				CE8460B3167DD345009C681C /* MainStoryboard.storyboard */,
+				CE8460B6167DD345009C681C /* ViewController.h */,
+				CE8460B7167DD345009C681C /* ViewController.m */,
+				CE8460C7167EDC6F009C681C /* DrawViewController.h */,
+				CE8460C8167EDC6F009C681C /* DrawViewController.m */,
+				CE8460C4167E0CE0009C681C /* MenuView.h */,
+				CE8460C5167E0CE0009C681C /* MenuView.m */,
+				CE8460C2167DFBF3009C681C /* MenuView.xib */,
+				CE8460CA167EDCBC009C681C /* GlassView.h */,
+				CE8460CB167EDCBC009C681C /* GlassView.m */,
+				CECD059E16994CFD006E009C /* SnsView.h */,
+				CECD059F16994CFD006E009C /* SnsView.m */,
+				CECD05A216994D44006E009C /* SnsView.xib */,
+				CE8460A2167DD345009C681C /* Supporting Files */,
+			);
+			path = "Gla-ffiti";
+			sourceTree = "<group>";
+		};
+		CE8460A2167DD345009C681C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CECD061F169EFD07006E009C /* image */,
+				CE8460A3167DD345009C681C /* Gla-ffiti-Info.plist */,
+				CE8460A4167DD345009C681C /* InfoPlist.strings */,
+				CE8460A7167DD345009C681C /* main.m */,
+				CE8460A9167DD345009C681C /* Gla-ffiti-Prefix.pch */,
+				CEEB549716AA3FB4008C1DB7 /* Default-568h@2x.png */,
+				CEEB549516AA3FA6008C1DB7 /* Default@2x.png */,
+				CEEB549316AA3F7F008C1DB7 /* Default.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CECD061F169EFD07006E009C /* image */ = {
+			isa = PBXGroup;
+			children = (
+				CEEB54A516ABF2AB008C1DB7 /* button-start.png */,
+				CEEB54A616ABF2AB008C1DB7 /* button-start@2x.png */,
+				CEEB549D16AA4689008C1DB7 /* title-logo.png */,
+				CEEB549E16AA4689008C1DB7 /* title-logo@2x.png */,
+				CECD068616A68ACA006E009C /* icon@2x.png */,
+				CECD068416A68AA1006E009C /* icon.png */,
+				CECD068A16A69D4C006E009C /* back-button.png */,
+				CECD068B16A69D4C006E009C /* back-button@2x.png */,
+				CECD0624169F0D14006E009C /* share.png */,
+				CECD0625169F0D14006E009C /* share@2x.png */,
+				CECD0620169EFD36006E009C /* menu.png */,
+				CECD0621169EFD36006E009C /* menu@2x.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE846096167DD345009C681C /* Gla-ffiti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8460BB167DD345009C681C /* Build configuration list for PBXNativeTarget "Gla-ffiti" */;
+			buildPhases = (
+				CE846093167DD345009C681C /* Sources */,
+				CE846094167DD345009C681C /* Frameworks */,
+				CE846095167DD345009C681C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gla-ffiti";
+			productName = "Gla-ffiti";
+			productReference = CE846097167DD345009C681C /* Gla-ffiti.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE84608E167DD345009C681C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = GrnBoy;
+			};
+			buildConfigurationList = CE846091167DD345009C681C /* Build configuration list for PBXProject "Gla-ffiti" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE84608C167DD345009C681C;
+			productRefGroup = CE846098167DD345009C681C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE846096167DD345009C681C /* Gla-ffiti */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE846095167DD345009C681C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8460A6167DD345009C681C /* InfoPlist.strings in Resources */,
+				CE8460B5167DD345009C681C /* MainStoryboard.storyboard in Resources */,
+				CE8460C3167DFBF3009C681C /* MenuView.xib in Resources */,
+				CECD05A316994D44006E009C /* SnsView.xib in Resources */,
+				CECD0622169EFD36006E009C /* menu.png in Resources */,
+				CECD0623169EFD36006E009C /* menu@2x.png in Resources */,
+				CECD0626169F0D14006E009C /* share.png in Resources */,
+				CECD0627169F0D14006E009C /* share@2x.png in Resources */,
+				CECD068516A68AA1006E009C /* icon.png in Resources */,
+				CECD068716A68ACA006E009C /* icon@2x.png in Resources */,
+				CECD068C16A69D4D006E009C /* back-button.png in Resources */,
+				CECD068D16A69D4D006E009C /* back-button@2x.png in Resources */,
+				CEEB549416AA3F7F008C1DB7 /* Default.png in Resources */,
+				CEEB549616AA3FA6008C1DB7 /* Default@2x.png in Resources */,
+				CEEB549816AA3FB4008C1DB7 /* Default-568h@2x.png in Resources */,
+				CEEB549F16AA4689008C1DB7 /* title-logo.png in Resources */,
+				CEEB54A016AA4689008C1DB7 /* title-logo@2x.png in Resources */,
+				CEEB54A716ABF2AC008C1DB7 /* button-start.png in Resources */,
+				CEEB54A816ABF2AC008C1DB7 /* button-start@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE846093167DD345009C681C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8460A8167DD345009C681C /* main.m in Sources */,
+				CE8460AC167DD345009C681C /* AppDelegate.m in Sources */,
+				CE8460B8167DD345009C681C /* ViewController.m in Sources */,
+				CE8460C6167E0CE0009C681C /* MenuView.m in Sources */,
+				CE8460C9167EDC6F009C681C /* DrawViewController.m in Sources */,
+				CE8460CC167EDCBC009C681C /* GlassView.m in Sources */,
+				CECD05A016994CFD006E009C /* SnsView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE8460A4167DD345009C681C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8460A5167DD345009C681C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE8460B3167DD345009C681C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8460B4167DD345009C681C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE8460B9167DD345009C681C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tomo Kobayashi (K637394CLG)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "81639653-52D0-4BC4-8750-25DE4021AF4D";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE8460BA167DD345009C681C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE8460BC167DD345009C681C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gla-ffiti/Gla-ffiti-Prefix.pch";
+				INFOPLIST_FILE = "Gla-ffiti/Gla-ffiti-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE8460BD167DD345009C681C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gla-ffiti/Gla-ffiti-Prefix.pch";
+				INFOPLIST_FILE = "Gla-ffiti/Gla-ffiti-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CECD068E16A6BAC1006E009C /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tomo Kobayashi";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3B7375F6-B6B5-4A74-A1B1-C16A61F74C28";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		CECD068F16A6BAC1006E009C /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gla-ffiti/Gla-ffiti-Prefix.pch";
+				INFOPLIST_FILE = "Gla-ffiti/Gla-ffiti-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE846091167DD345009C681C /* Build configuration list for PBXProject "Gla-ffiti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8460B9167DD345009C681C /* Debug */,
+				CE8460BA167DD345009C681C /* Release */,
+				CECD068E16A6BAC1006E009C /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8460BB167DD345009C681C /* Build configuration list for PBXNativeTarget "Gla-ffiti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8460BC167DD345009C681C /* Debug */,
+				CE8460BD167DD345009C681C /* Release */,
+				CECD068F16A6BAC1006E009C /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE84608E167DD345009C681C /* Project object */;
+}
