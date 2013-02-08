@@ -40,14 +40,12 @@
     
     //保存確認アラート
     [drawViewController.saveAlert show];
-    
 }
 
 - (IBAction)clearDraw:(id)sender {
     
     //消去確認アラート
     [drawViewController.clearAlert show];
-    
     [drawViewController.glassView removeFromSuperview];
     
     //画面取得
@@ -59,7 +57,6 @@
     //曇り処理用画面の作成
     drawViewController.glassView = [[GlassView alloc] initWithFrame:CGRectMake(0, 0, rect.size.width, rect.size.height)];
     [drawViewController.view addSubview:drawViewController.glassView];
-    
     [drawViewController.view bringSubviewToFront:drawViewController.menuView.view];
 }
 
@@ -83,7 +80,7 @@
             self.view.alpha=1.0;
         }
                      completion:^(BOOL finished){
-    //アクション終了イベント
+                            //アクション終了イベント
                      }];
         menu = 2;
     }else{
@@ -103,7 +100,6 @@
     customAdView = [[ADBannerView alloc] initWithFrame:CGRectMake(0, 100, 320, 45)];
     customAdView.delegate = self;
     [self.view addSubview:customAdView];
-    
 }
 
 @end

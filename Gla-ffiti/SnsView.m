@@ -41,7 +41,6 @@
     //Facebookへ投稿
     [controller setInitialText:@"Gla-ffitiより投稿"];
     [controller addImage:drawViewController.finImage];
-    
     [drawViewController.self presentViewController:controller
                                           animated:YES
                                         completion:NULL];

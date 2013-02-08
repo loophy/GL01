@@ -18,7 +18,6 @@
 @property (retain, nonatomic) IBOutlet UIView *view;
 @property (strong, nonatomic) DrawViewController *drawViewController;
 
-
 - (IBAction)ShareTwitter:(id)sender;
 - (IBAction)ShareFacebook:(id)sender;
 - (IBAction)ShareCancel:(id)sender;

@@ -21,19 +21,11 @@
 <UIImagePickerControllerDelegate, UINavigationControllerDelegate,UIActionSheetDelegate>
 {
     UIImage *finImage;
-    
-    //イメージピッカーの定義
     UIImagePickerController *imagePicker;
-    
     GlassView* glassView;
     MenuView* menuView;
-    
-    //保存確認アラート
     UIAlertView *saveAlert;
-    
-    //消去確認アラート
     UIAlertView *clearAlert;
-    
 }
 
 @property (strong, nonatomic) GlassView *glassView;

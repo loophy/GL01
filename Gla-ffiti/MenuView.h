@@ -16,7 +16,6 @@
 {
     int menu;
     DrawViewController *drawViewController;
-    
     ADBannerView *customAdView;
 }
 
